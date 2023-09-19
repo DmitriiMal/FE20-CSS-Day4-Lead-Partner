@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    height: 100;
+    width: 20%;
+    background-color: #4A094A;
+    position: fixed;
+    /*z-index: 1;*/
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding: 7px 7px 7px 40px;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: #FA327B;
+}
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 90px; 
+}
