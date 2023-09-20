@@ -76,7 +76,9 @@ ul {
   top: 0;
   background: var(--background-color);
   padding: 0 50px;
-  border-bottom: #333 0.5px solid;
+  /* border-bottom: #333 0.5px solid; */
+  box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 0.3);
+
 }
 
 .hero {
